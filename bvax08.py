@@ -417,8 +417,8 @@ class MainSystem:
     def __init__(self):
         db_config = {
             'dbname': 'va01',
-            'user': 'postgres',
-            'password': 'f15strike*',
+            'user': 'TO BE DEFINED',
+            'password': 'TO BE DEFINED',
             'host': '192.168.1.95',
             'port': '5432'}
         
