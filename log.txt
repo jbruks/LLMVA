@@ -1,0 +1,3058 @@
+NEW RESULTS ##########################################################
+Starting Nmap scan on 192.168.1.0/24 for ports 1-1024...
+
+Scan report for 192.168.1.1 ()
+Host is up
+Port : 21	State : filtered
+Service : 	Version : 
+Port : 22	State : open
+Service : Dropbear sshd	Version : 2019.78
+Port : 23	State : filtered
+Service : 	Version : 
+Port : 80	State : open
+Service : micro_httpd	Version : 
+Port : 443	State : open
+Service : micro_httpd	Version : 
+
+Scan report for 192.168.1.201 ()
+Host is up
+Port : 53	State : open
+Service : 	Version : 
+
+Scan report for 192.168.1.62 ()
+Host is up
+NEW RESULTS ##########################################################
+Scanning network 192.168.1.0/24 within ports 1-1024 for service versions...
+
+Host: 192.168.1.1 ()
+State: up
+Protocol: tcp
+Port: 21	Service: 	Version: 
+Port: 22	Service: Dropbear sshd	Version: 2019.78
+Port: 23	Service: 	Version: 
+Port: 80	Service: micro_httpd	Version: 
+Port: 443	Service: micro_httpd	Version: 
+
+Host: 192.168.1.201 ()
+State: up
+Protocol: tcp
+Port: 53	Service: 	Version: 
+
+Host: 192.168.1.62 ()
+State: up
+Protocol: tcp
+Port: 981	Service: 	Version: 
+NEW RESULTS ##########################################################
+Scanning network 192.168.1.0/24 within ports 1-1024 for service versions...
+
+Host: 192.168.1.1 ()
+State: up
+Protocol: tcp
+Port: 21	Service: 	Version: 
+Port: 22	Service: Dropbear sshd	Version: 2019.78
+Port: 23	Service: 	Version: 
+Port: 80	Service: micro_httpd	Version: 
+Port: 443	Service: micro_httpd	Version: 
+
+Host: 192.168.1.201 ()
+State: up
+Protocol: tcp
+Port: 53	Service: 	Version: 
+Performing TCP SYN scan on 192.168.1.0/24 within ports 1-1024...
+An error occurred during scanning: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW RESULTS ##########################################################
+Scanning network: 192.168.1.0/24 on ports: 1-1024 for service version detection...
+
+Host: 192.168.1.1 ()
+State: up
+Protocol: tcp
+Port: 21	State: filtered	Service: ftp	Version: 
+Port: 22	State: open	Service: ssh	Version: 2019.78
+Port: 23	State: filtered	Service: telnet	Version: 
+Port: 80	State: open	Service: http	Version: 
+Port: 443	State: open	Service: http	Version: 
+
+Host: 192.168.1.201 ()
+State: up
+Protocol: tcp
+Port: 53	State: open	Service: tcpwrapped	Version: 
+
+Host: 192.168.1.61 ()
+State: up
+
+Host: 192.168.1.62 ()
+State: up
+NEW RESULTS ##########################################################
+Host : 192.168.1.1 ()
+State : up
+----------
+Protocol : tcp
+port : 21	name : ftp	version : 
+port : 22	name : ssh	version : 2019.78
+port : 23	name : telnet	version : 
+port : 80	name : http	version : 
+port : 443	name : http	version : 
+Host : 192.168.1.201 ()
+State : up
+----------
+Protocol : tcp
+port : 53	name : tcpwrapped	version : 
+Host : 192.168.1.61 ()
+State : up
+NEW RESULTS ##########################################################
+Host: 192.168.1.1 ()
+State: up
+Protocol: tcp
+Port: 21	State: filtered	Service: ftp	Version: 
+Port: 22	State: open	Service: ssh	Version: 2019.78
+Port: 23	State: filtered	Service: telnet	Version: 
+Port: 80	State: open	Service: http	Version: 
+Port: 443	State: open	Service: http	Version: 
+----------------------------------------
+Host: 192.168.1.201 ()
+State: up
+Protocol: tcp
+Port: 53	State: open	Service: tcpwrapped	Version: 
+----------------------------------------
+Host: 192.168.1.61 ()
+State: up
+----------------------------------------
+Host: 192.168.1.62 ()
+State: up
+Protocol: tcp
+Port: 384	State: filtered	Service: arns	Version: 
+Port: 385	State: filtered	Service: ibm-app	Version: 
+Port: 495	State: filtered	Service: intecourier	Version: 
+Port: 844	State: filtered	Service: unknown	Version: 
+----------------------------------------
+NEW ERRORS ##########################################################
+Subprocess timed out after 900 seconds.NEW RESULTS ##########################################################
+Host: 192.168.1.1 ()
+State: up
+Protocol: tcp
+Port: 21	State: filtered	Service: ftp	Version: 
+Port: 22	State: open	Service: ssh	Version: 2019.78
+Port: 23	State: filtered	Service: telnet	Version: 
+Port: 80	State: open	Service: http	Version: 
+Port: 443	State: open	Service: http	Version: 
+Host: 192.168.1.201 ()
+State: up
+Protocol: tcp
+Port: 53	State: open	Service: tcpwrapped	Version: 
+NEW RESULTS ##########################################################
+Scanning target: 192.168.1.0/24 for service versions...
+Host: 192.168.1.1 ()
+State: up
+Protocol: tcp
+Port: 21	State: filtered	Service: ftp	Version: 
+Port: 22	State: open	Service: ssh	Version: 2019.78
+Port: 23	State: filtered	Service: telnet	Version: 
+Port: 80	State: open	Service: http	Version: 
+Port: 443	State: open	Service: http	Version: 
+Host: 192.168.1.201 ()
+State: up
+Protocol: tcp
+Port: 53	State: open	Service: tcpwrapped	Version: 
+NEW RESULTS ##########################################################
+NEW RESULTS ##########################################################
+
+Host: 192.168.1.1 ()
+State: up
+Protocol: tcp
+Port: 21	State: filtered	Service: ftp	Version: 
+Port: 22	State: open	Service: ssh	Version: 2019.78
+Port: 23	State: filtered	Service: telnet	Version: 
+Port: 80	State: open	Service: http	Version: 
+Port: 443	State: open	Service: http	Version: 
+
+Host: 192.168.1.201 ()
+State: up
+Protocol: tcp
+Port: 53	State: open	Service: tcpwrapped	Version: 
+NEW RESULTS ##########################################################
+
+Host: 192.168.1.1 ()
+State: up
+Protocol: tcp
+Port: 21	State: filtered	Service: ftp	Version: 
+Port: 22	State: open	Service: ssh	Version: 2019.78
+Port: 23	State: filtered	Service: telnet	Version: 
+Port: 80	State: open	Service: http	Version: 
+Port: 443	State: open	Service: http	Version: 
+
+Host: 192.168.1.126 ()
+State: up
+
+Host: 192.168.1.201 ()
+State: up
+Protocol: tcp
+Port: 53	State: open	Service: tcpwrapped	Version: 
+
+Host: 192.168.1.61 ()
+State: up
+NEW RESULTS ##########################################################
+Host : 192.168.1.1 ()
+State : up
+----------
+Protocol : tcp
+Port : 21	Name : ftp	Product : 	Version : 	Extra : 
+Port : 22	Name : ssh	Product : Dropbear sshd	Version : 2019.78	Extra : protocol 2.0
+Port : 23	Name : telnet	Product : 	Version : 	Extra : 
+Port : 80	Name : http	Product : micro_httpd	Version : 	Extra : 
+Port : 443	Name : http	Product : micro_httpd	Version : 	Extra : 
+Host : 192.168.1.126 ()
+State : up
+----------
+Protocol : tcp
+Port : 49152	Name : unknown	Product : 	Version : 	Extra : 
+Port : 49156	Name : unknown	Product : 	Version : 	Extra : 
+Port : 62078	Name : tcpwrapped	Product : 	Version : 	Extra : 
+Host : 192.168.1.201 ()
+State : up
+----------
+Protocol : tcp
+Port : 53	Name : tcpwrapped	Product : 	Version : 	Extra : 
+Port : 1234	Name : hotline	Product : 	Version : 	Extra : 
+Port : 8090	Name : opsmessaging	Product : 	Version : 	Extra : 
+NEW RESULTS ##########################################################
+Host : 192.168.1.1 ()
+State : up
+----------
+Protocol : tcp
+Port : 21	Name : ftp	Product : 	Version : 	Extra : 
+Port : 22	Name : ssh	Product : Dropbear sshd	Version : 2019.78	Extra : protocol 2.0
+Port : 23	Name : telnet	Product : 	Version : 	Extra : 
+Port : 80	Name : http	Product : micro_httpd	Version : 	Extra : 
+Port : 443	Name : http	Product : micro_httpd	Version : 	Extra : 
+Host : 192.168.1.201 ()
+State : up
+----------
+Protocol : tcp
+Port : 53	Name : tcpwrapped	Product : 	Version : 	Extra : 
+Port : 1234	Name : hotline	Product : 	Version : 	Extra : 
+Port : 8090	Name : opsmessaging	Product : 	Version : 	Extra : 
+Host : 192.168.1.61 ()
+State : up
+----------
+Protocol : tcp
+Port : 49152	Name : tcpwrapped	Product : 	Version : 	Extra : 
+Port : 62078	Name : tcpwrapped	Product : 	Version : 	Extra : 
+Host : 192.168.1.62 ()
+State : up
+NEW RESULTS ##########################################################
+Scanning results for 192.168.1.1
+State: up
+----------
+Protocol: tcp
+Port: 21	State: filtered	Service: ftp	Product: 	Version: 
+Port: 22	State: open	Service: ssh	Product: Dropbear sshd	Version: 2019.78
+Port: 23	State: filtered	Service: telnet	Product: 	Version: 
+Port: 80	State: open	Service: http	Product: micro_httpd	Version: 
+Port: 443	State: open	Service: http	Product: micro_httpd	Version: 
+Scanning results for 192.168.1.201
+State: up
+----------
+Protocol: tcp
+Port: 53	State: open	Service: tcpwrapped	Product: 	Version: 
+Port: 1234	State: filtered	Service: hotline	Product: 	Version: 
+Port: 8090	State: open	Service: opsmessaging	Product: 	Version: 
+Scanning results for 192.168.1.62
+State: up
+----------
+Protocol: tcp
+Port: 5009	State: filtered	Service: airport-admin	Product: 	Version: 
+Port: 6566	State: filtered	Service: sane-port	Product: 	Version: 
+Port: 6789	State: filtered	Service: ibm-db2-admin	Product: 	Version: 
+Scan completed.
+NEW RESULTS ##########################################################
+You requested a scan type which requires root privileges.
+QUITTING!
+
+NEW RESULTS ##########################################################
+You requested a scan type which requires root privileges.
+QUITTING!
+
+You requested a scan type which requires root privileges.
+QUITTING!
+
+NEW RESULTS ##########################################################
+Scanning 192.168.1.0/24 for open TCP ports using SYN scan...
+An error occurred: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] network
+exec_action.py: error: the following arguments are required: network
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] network
+exec_action.py: error: the following arguments are required: network
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 18, in <module>
+    syn_scan(target)
+  File "/home/jbru/va01/exec_action.py", line 5, in syn_scan
+    scan_result = nm.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 18, in <module>
+    tcp_syn_scan('192.168.1.0/24')
+  File "/home/jbru/va01/exec_action.py", line 6, in tcp_syn_scan
+    nm.scan(hosts=network, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 18, in <module>
+    tcp_syn_scan('192.168.1.0/24')
+  File "/home/jbru/va01/exec_action.py", line 6, in tcp_syn_scan
+    nm.scan(hosts=network, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 18, in <module>
+    tcp_syn_scan('192.168.1.0/24')
+  File "/home/jbru/va01/exec_action.py", line 6, in tcp_syn_scan
+    nm.scan(hosts=network, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 19, in <module>
+    tcp_syn_scan(network_to_scan)
+  File "/home/jbru/va01/exec_action.py", line 6, in tcp_syn_scan
+    nm.scan(hosts=network, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] network
+exec_action.py: error: the following arguments are required: network
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 19, in <module>
+    tcp_syn_scan(network_to_scan)
+  File "/home/jbru/va01/exec_action.py", line 6, in tcp_syn_scan
+    nm.scan(hosts=network, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW RESULTS ##########################################################
+
+Host: 192.168.1.1 ()
+State: up
+Port: 21	Service: ftp	Product: 	Version: 
+Port: 22	Service: ssh	Product: Dropbear sshd	Version: 2019.78
+Port: 23	Service: telnet	Product: 	Version: 
+Port: 80	Service: http	Product: micro_httpd	Version: 
+Port: 443	Service: http	Product: micro_httpd	Version: 
+
+Host: 192.168.1.126 ()
+State: up
+Port: 49152	Service: unknown	Product: 	Version: 
+Port: 49156	Service: unknown	Product: 	Version: 
+Port: 62078	Service: tcpwrapped	Product: 	Version: 
+
+Host: 192.168.1.201 ()
+State: up
+Port: 53	Service: tcpwrapped	Product: 	Version: 
+Port: 1234	Service: hotline	Product: 	Version: 
+Port: 8090	Service: opsmessaging	Product: 	Version: 
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] -n NETWORK
+exec_action.py: error: the following arguments are required: -n/--network
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] -i IPRANGE
+exec_action.py: error: the following arguments are required: -i/--iprange
+NEW RESULTS ##########################################################
+Scanning IP range: 192.168.1.0/24
+
+Host: 192.168.1.1 ()
+State: up
+Port: 21	State: filtered	Service: ftp  
+Port: 22	State: open	Service: ssh Dropbear sshd 2019.78
+Port: 23	State: filtered	Service: telnet  
+Port: 80	State: open	Service: http micro_httpd 
+Port: 443	State: open	Service: http micro_httpd 
+
+Host: 192.168.1.126 ()
+State: up
+Port: 49152	State: open	Service: unknown  
+Port: 49156	State: open	Service: unknown  
+Port: 62078	State: open	Service: tcpwrapped  
+
+Host: 192.168.1.201 ()
+State: up
+Port: 53	State: open	Service: tcpwrapped  
+Port: 1234	State: filtered	Service: hotline  
+Port: 8090	State: open	Service: opsmessaging  
+
+Host: 192.168.1.61 ()
+State: up
+Port: 49152	State: open	Service: tcpwrapped  
+Port: 62078	State: open	Service: tcpwrapped  
+NEW RESULTS ##########################################################
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] -i IPRANGE
+exec_action.py: error: the following arguments are required: -i/--iprange
+NEW RESULTS ##########################################################
+Scanning IP range: 192.168.1.0/24
+
+Host: 192.168.1.1 ()
+State: up
+Protocol: tcp
+Port: 21	State: filtered	Service: ftp
+Port: 22	State: open	Service: tcpwrapped
+Port: 23	State: filtered	Service: telnet
+Port: 80	State: open	Service: http	Product: micro_httpd	Version: 
+Port: 443	State: open	Service: http	Product: micro_httpd	Version: 
+
+Host: 192.168.1.126 ()
+State: up
+Protocol: tcp
+Port: 49152	State: open	Service: unknown
+Port: 49156	State: open	Service: unknown
+Port: 62078	State: open	Service: tcpwrapped
+
+Host: 192.168.1.201 ()
+State: up
+Protocol: tcp
+Port: 53	State: open	Service: tcpwrapped
+Port: 1234	State: filtered	Service: hotline
+Port: 8090	State: open	Service: opsmessaging
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 23, in <module>
+    perform_syn_scan(args.target)
+  File "/home/jbru/va01/exec_action.py", line 7, in perform_syn_scan
+    scan_data = nm.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 23, in <module>
+    perform_syn_scan(args.target)
+  File "/home/jbru/va01/exec_action.py", line 7, in perform_syn_scan
+    scan_data = nm.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 25, in <module>
+    perform_syn_scan(args.target)
+  File "/home/jbru/va01/exec_action.py", line 7, in perform_syn_scan
+    scan_data = nm.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] -t TARGET
+exec_action.py: error: the following arguments are required: -t/--target
+NEW RESULTS ##########################################################
+Performing TCP SYN Scan on 192.168.1.0/24
+Error: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] -t TARGET
+exec_action.py: error: the following arguments are required: -t/--target
+NEW RESULTS ##########################################################
+Scanning Host: 192.168.1.1
+Protocol: tcp
+Port: 21	 State: filtered
+Version: 
+Product: 
+Extra Info: 
+Port: 22	 State: open
+Version: 2019.78
+Product: Dropbear sshd
+Extra Info: protocol 2.0
+Port: 23	 State: filtered
+Version: 
+Product: 
+Extra Info: 
+Port: 80	 State: open
+Version: 
+Product: micro_httpd
+Extra Info: 
+Port: 443	 State: open
+Version: 
+Product: micro_httpd
+Extra Info: 
+----------------------------------------
+Scanning Host: 192.168.1.126
+Protocol: tcp
+Port: 49152	 State: open
+Version: 
+Product: 
+Extra Info: 
+Port: 49156	 State: open
+Version: 
+Product: 
+Extra Info: 
+Port: 62078	 State: open
+Version: 
+Product: 
+Extra Info: 
+----------------------------------------
+Scanning Host: 192.168.1.201
+Protocol: tcp
+Port: 53	 State: open
+Version: 
+Product: 
+Extra Info: 
+Port: 1234	 State: filtered
+Version: 
+Product: 
+Extra Info: 
+Port: 8090	 State: open
+Version: 
+Product: 
+Extra Info: 
+----------------------------------------
+NEW RESULTS ##########################################################
+Port: 21	State: filtered
+Version: 
+Product: 
+Extra Info: 
+Port: 22	State: open
+Version: 2019.78
+Product: Dropbear sshd
+Extra Info: protocol 2.0
+Port: 23	State: filtered
+Version: 
+Product: 
+Extra Info: 
+Port: 80	State: open
+Version: 
+Product: micro_httpd
+Extra Info: 
+Port: 443	State: open
+Version: 
+Product: micro_httpd
+Extra Info: 
+NEW RESULTS ##########################################################
+
+Host: 192.168.1.1 ()
+State: up
+
+Protocol: tcp
+Port: 21	State: filtered	Service: ftp
+Product: 	Version: 	Extra Info: 
+Port: 22	State: open	Service: ssh
+Product: Dropbear sshd	Version: 2019.78	Extra Info: protocol 2.0
+Port: 23	State: filtered	Service: telnet
+Product: 	Version: 	Extra Info: 
+Port: 80	State: open	Service: http
+Product: micro_httpd	Version: 	Extra Info: 
+Port: 443	State: open	Service: http
+Product: micro_httpd	Version: 	Extra Info: 
+NEW ERRORS ##########################################################
+Subprocess timed out after 900 seconds.NEW RESULTS ##########################################################
+Nmap service version detection results for 192.168.1.0/24:
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-10-25 19:01 CEST
+Nmap scan report for 192.168.1.1
+Host is up (0.059s latency).
+Not shown: 995 closed ports
+PORT    STATE    SERVICE  VERSION
+21/tcp  filtered ftp
+22/tcp  open     ssh      Dropbear sshd 2019.78 (protocol 2.0)
+23/tcp  filtered telnet
+80/tcp  open     http     micro_httpd
+443/tcp open     ssl/http micro_httpd
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.1.201
+Host is up (0.0048s latency).
+Not shown: 997 closed ports
+PORT     STATE    SERVICE       VERSION
+53/tcp   open     tcpwrapped
+1234/tcp filtered hotline
+8090/tcp open     opsmessaging?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8090-TCP:V=7.80%I=7%D=10/25%Time=671BCF0C%P=x86_64-pc-linux-gnu%r(G
+SF:enericLines,11D,"HTTP/1\.1\x20405\x20Method\x20Not\x20Allowed\r\nAccess
+SF:-Control-Allow-Origin:\x20\*\r\nConnection:\x20close\r\nContent-Length:
+SF:\x20146\r\nContent-Type:\x20application/json\r\n\r\n{\r\n\"resultCode\"
+SF::405,\r\n\"resultText\":\"Method\x20not\x20allowed\",\r\n\"resultData\"
+SF::{\r\n\"deviceID\":\"10\.116\.94\.168_ECC302A943F8\",\r\n\"friendlyName
+SF:\":\"M\+_43f8\"\r\n}\r\n}")%r(GetRequest,122,"HTTP/1\.1\x20500\x20Inter
+SF:nal\x20Server\x20Error\r\nAccess-Control-Allow-Origin:\x20\*\r\nConnect
+SF:ion:\x20close\r\nContent-Length:\x20148\r\nContent-Type:\x20application
+SF:/json\r\n\r\n{\r\n\"resultCode\":500,\r\n\"resultText\":\"Unknown\x20se
+SF:rver\x20error\",\r\n\"resultData\":{\r\n\"deviceID\":\"10\.116\.94\.168
+SF:_ECC302A943F8\",\r\n\"friendlyName\":\"M\+_43f8\"\r\n}\r\n}")%r(HTTPOpt
+SF:ions,11D,"HTTP/1\.1\x20405\x20Method\x20Not\x20Allowed\r\nAccess-Contro
+SF:l-Allow-Origin:\x20\*\r\nConnection:\x20close\r\nContent-Length:\x20146
+SF:\r\nContent-Type:\x20application/json\r\n\r\n{\r\n\"resultCode\":405,\r
+SF:\n\"resultText\":\"Method\x20not\x20allowed\",\r\n\"resultData\":{\r\n\
+SF:"deviceID\":\"10\.116\.94\.168_ECC302A943F8\",\r\n\"friendlyName\":\"M\
+SF:+_43f8\"\r\n}\r\n}")%r(RTSPRequest,11D,"HTTP/1\.1\x20405\x20Method\x20N
+SF:ot\x20Allowed\r\nAccess-Control-Allow-Origin:\x20\*\r\nConnection:\x20c
+SF:lose\r\nContent-Length:\x20146\r\nContent-Type:\x20application/json\r\n
+SF:\r\n{\r\n\"resultCode\":405,\r\n\"resultText\":\"Method\x20not\x20allow
+SF:ed\",\r\n\"resultData\":{\r\n\"deviceID\":\"10\.116\.94\.168_ECC302A943
+SF:F8\",\r\n\"friendlyName\":\"M\+_43f8\"\r\n}\r\n}")%r(RPCCheck,11D,"HTTP
+SF:/1\.1\x20405\x20Method\x20Not\x20Allowed\r\nAccess-Control-Allow-Origin
+SF::\x20\*\r\nConnection:\x20close\r\nContent-Length:\x20146\r\nContent-Ty
+SF:pe:\x20application/json\r\n\r\n{\r\n\"resultCode\":405,\r\n\"resultText
+SF:\":\"Method\x20not\x20allowed\",\r\n\"resultData\":{\r\n\"deviceID\":\"
+SF:10\.116\.94\.168_ECC302A943F8\",\r\n\"friendlyName\":\"M\+_43f8\"\r\n}\
+SF:r\n}")%r(DNSVersionBindReqTCP,11D,"HTTP/1\.1\x20405\x20Method\x20Not\x2
+SF:0Allowed\r\nAccess-Control-Allow-Origin:\x20\*\r\nConnection:\x20close\
+SF:r\nContent-Length:\x20146\r\nContent-Type:\x20application/json\r\n\r\n{
+SF:\r\n\"resultCode\":405,\r\n\"resultText\":\"Method\x20not\x20allowed\",
+SF:\r\n\"resultData\":{\r\n\"deviceID\":\"10\.116\.94\.168_ECC302A943F8\",
+SF:\r\n\"friendlyName\":\"M\+_43f8\"\r\n}\r\n}");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 256 IP addresses (2 hosts up) scanned in 25.19 seconds
+
+NEW RESULTS ##########################################################
+Nmap service version detection results for 192.168.1.1:
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-10-25 19:03 CEST
+Nmap scan report for 192.168.1.1
+Host is up (0.0040s latency).
+Not shown: 995 closed ports
+PORT    STATE    SERVICE  VERSION
+21/tcp  filtered ftp
+22/tcp  open     ssh      Dropbear sshd 2019.78 (protocol 2.0)
+23/tcp  filtered telnet
+80/tcp  open     http     micro_httpd
+443/tcp open     ssl/http micro_httpd
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 20.02 seconds
+
+NEW RESULTS ##########################################################
+Scanning 192.168.1.0/24 for service versions...
+
+Host: 192.168.1.1 ()
+State: up
+
+Protocol: tcp
+Port: 21	Service: ftp	Version: 
+Port: 22	Service: ssh	Version: 2019.78
+Port: 23	Service: telnet	Version: 
+Port: 80	Service: http	Version: 
+Port: 443	Service: http	Version: 
+
+Host: 192.168.1.201 ()
+State: up
+
+Protocol: tcp
+Port: 53	Service: tcpwrapped	Version: 
+Port: 1234	Service: hotline	Version: 
+Port: 8090	Service: opsmessaging	Version: 
+
+Host: 192.168.1.62 ()
+State: up
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 37, in <module>
+    scan_operating_systems(target_network)
+  File "/home/jbru/va01/exec_action.py", line 25, in scan_operating_systems
+    scanner.scan(hosts=target_network, arguments='-O')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'TCP/IP fingerprinting (for OS scan) requires root privileges.\nQUITTING!\n'
+NEW RESULTS ##########################################################
+Host: 192.168.1.1 ()
+State: up
+----------
+Protocol: tcp
+Port: 21	Service: ftp	Version: 
+Port: 22	Service: ssh	Version: 2019.78
+Port: 23	Service: telnet	Version: 
+Port: 80	Service: http	Version: 
+Port: 443	Service: http	Version: 
+Host: 192.168.1.126 ()
+State: up
+----------
+Protocol: tcp
+Port: 21	Service: ftp	Version: 
+Port: 23	Service: telnet	Version: 
+Port: 25	Service: smtp	Version: 
+Port: 80	Service: http	Version: 
+Port: 110	Service: pop3	Version: 
+Port: 113	Service: ident	Version: 
+Port: 135	Service: msrpc	Version: 
+Port: 139	Service: netbios-ssn	Version: 
+Port: 199	Service: smux	Version: 
+Port: 256	Service: fw1-secureremote	Version: 
+Port: 443	Service: https	Version: 
+Port: 445	Service: microsoft-ds	Version: 
+Port: 554	Service: rtsp	Version: 
+Port: 587	Service: submission	Version: 
+Port: 995	Service: pop3s	Version: 
+Port: 1025	Service: NFS-or-IIS	Version: 
+Port: 1720	Service: h323q931	Version: 
+Port: 1723	Service: pptp	Version: 
+Port: 3389	Service: ms-wbt-server	Version: 
+Port: 5900	Service: vnc	Version: 
+Port: 8080	Service: http-proxy	Version: 
+Port: 8888	Service: sun-answerbook	Version: 
+Port: 49152	Service: tcpwrapped	Version: 
+Port: 49156	Service: unknown	Version: 
+Port: 62078	Service: tcpwrapped	Version: 
+Host: 192.168.1.201 ()
+State: up
+----------
+Protocol: tcp
+Port: 53	Service: tcpwrapped	Version: 
+Port: 1234	Service: hotline	Version: 
+Port: 8090	Service: opsmessaging	Version: 
+Host: 192.168.1.62 ()
+State: up
+NEW RESULTS ##########################################################
+Host: 192.168.1.1 ()
+State: up
+----------
+Protocol: tcp
+Port: 21	Service: ftp	Version: 
+Port: 22	Service: ssh	Version: 2019.78
+Port: 23	Service: telnet	Version: 
+Port: 80	Service: http	Version: 
+Port: 443	Service: http	Version: 
+Host: 192.168.1.126 ()
+State: up
+----------
+Protocol: tcp
+Port: 49152	Service: tcpwrapped	Version: 
+Port: 49156	Service: unknown	Version: 
+Port: 62078	Service: tcpwrapped	Version: 
+Host: 192.168.1.201 ()
+State: up
+----------
+Protocol: tcp
+Port: 53	Service: tcpwrapped	Version: 
+Port: 1234	Service: hotline	Version: 
+Port: 8090	Service: opsmessaging	Version: 
+Host: 192.168.1.62 ()
+State: up
+NEW RESULTS ##########################################################
+Host: 192.168.1.1 ()
+State: up
+Protocol: tcp
+Port: 21	Service: ftp	Version: 
+Port: 22	Service: ssh	Version: 2019.78
+Port: 23	Service: telnet	Version: 
+Port: 80	Service: http	Version: 
+Port: 443	Service: http	Version: 
+Host: 192.168.1.126 ()
+State: up
+Protocol: tcp
+Port: 49152	Service: tcpwrapped	Version: 
+Port: 49156	Service: unknown	Version: 
+Port: 62078	Service: tcpwrapped	Version: 
+Host: 192.168.1.201 ()
+State: up
+Protocol: tcp
+Port: 53	Service: tcpwrapped	Version: 
+Port: 1234	Service: hotline	Version: 
+Port: 8090	Service: opsmessaging	Version: 
+Host: 192.168.1.62 ()
+State: up
+NEW ERRORS ##########################################################
+Subprocess timed out after 900 seconds.NEW RESULTS ##########################################################
+{'hostnames': [{'name': '', 'type': ''}], 'addresses': {'ipv4': '192.168.1.1'}, 'vendor': {}, 'status': {'state': 'up', 'reason': 'syn-ack'}, 'tcp': {21: {'state': 'filtered', 'reason': 'no-response', 'name': 'ftp', 'product': '', 'version': '', 'extrainfo': '', 'conf': '3', 'cpe': ''}, 22: {'state': 'open', 'reason': 'syn-ack', 'name': 'ssh', 'product': 'Dropbear sshd', 'version': '2019.78', 'extrainfo': 'protocol 2.0', 'conf': '10', 'cpe': 'cpe:/o:linux:linux_kernel'}, 23: {'state': 'filtered', 'reason': 'no-response', 'name': 'telnet', 'product': '', 'version': '', 'extrainfo': '', 'conf': '3', 'cpe': ''}, 80: {'state': 'open', 'reason': 'syn-ack', 'name': 'http', 'product': 'micro_httpd', 'version': '', 'extrainfo': '', 'conf': '10', 'cpe': 'cpe:/a:acme:micro_httpd'}, 443: {'state': 'open', 'reason': 'syn-ack', 'name': 'http', 'product': 'micro_httpd', 'version': '', 'extrainfo': '', 'conf': '10', 'cpe': 'cpe:/a:acme:micro_httpd'}}}
+NEW RESULTS ##########################################################
+
+Host: 192.168.1.1 ()
+State: up
+
+Protocol: tcp
+Port: 21	State: filtered	Service: ftp	Version: 
+Port: 22	State: open	Service: ssh	Version: 2019.78
+Port: 23	State: filtered	Service: telnet	Version: 
+Port: 80	State: open	Service: http	Version: 
+Port: 443	State: open	Service: http	Version: 
+
+Host: 192.168.1.126 ()
+State: up
+
+Protocol: tcp
+Port: 49152	State: open	Service: tcpwrapped	Version: 
+Port: 49156	State: open	Service: unknown	Version: 
+Port: 62078	State: open	Service: tcpwrapped	Version: 
+
+Host: 192.168.1.201 ()
+State: up
+
+Protocol: tcp
+Port: 53	State: open	Service: tcpwrapped	Version: 
+Port: 1234	State: filtered	Service: hotline	Version: 
+Port: 8090	State: open	Service: opsmessaging	Version: 
+
+Host: 192.168.1.62 ()
+State: up
+NEW RESULTS ##########################################################
+Host: 192.168.1.1 ()
+State: up
+Protocol: tcp
+Port: 21	State: filtered	Service: ftp	Version: 
+Port: 22	State: open	Service: ssh	Version: 2019.78
+Port: 23	State: filtered	Service: telnet	Version: 
+Port: 80	State: open	Service: http	Version: 
+Port: 443	State: open	Service: http	Version: 
+Host: 192.168.1.126 ()
+State: up
+Protocol: tcp
+Port: 49152	State: open	Service: tcpwrapped	Version: 
+Port: 49156	State: open	Service: unknown	Version: 
+Port: 62078	State: open	Service: tcpwrapped	Version: 
+Host: 192.168.1.201 ()
+State: up
+Protocol: tcp
+Port: 53	State: open	Service: tcpwrapped	Version: 
+Port: 1234	State: filtered	Service: hotline	Version: 
+Port: 8090	State: open	Service: opsmessaging	Version: 
+Host: 192.168.1.62 ()
+State: up
+NEW RESULTS ##########################################################
+Host: 192.168.1.1
+Port: 21	Service: ftp	Version: 
+Port: 22	Service: ssh	Version: 2019.78
+Port: 23	Service: telnet	Version: 
+Port: 80	Service: http	Version: 
+Port: 443	Service: http	Version: 
+Host: 192.168.1.126
+Port: 49152	Service: tcpwrapped	Version: 
+Port: 49156	Service: unknown	Version: 
+Port: 62078	Service: tcpwrapped	Version: 
+Host: 192.168.1.201
+Port: 53	Service: tcpwrapped	Version: 
+Port: 1234	Service: hotline	Version: 
+Port: 8090	Service: opsmessaging	Version: 
+Host: 192.168.1.62
+NEW RESULTS ##########################################################
+Host: 192.168.1.1 ()
+State: up
+----------
+Protocol: tcp
+Port: 21	State: filtered	Service: ftp	Version: 
+Port: 22	State: open	Service: ssh	Version: 2019.78
+Port: 23	State: filtered	Service: telnet	Version: 
+Port: 80	State: open	Service: http	Version: 
+Port: 443	State: open	Service: http	Version: 
+Host: 192.168.1.126 ()
+State: up
+----------
+Protocol: tcp
+Port: 49152	State: open	Service: tcpwrapped	Version: 
+Port: 49156	State: open	Service: unknown	Version: 
+Port: 62078	State: open	Service: tcpwrapped	Version: 
+Host: 192.168.1.201 ()
+State: up
+----------
+Protocol: tcp
+Port: 53	State: open	Service: tcpwrapped	Version: 
+Port: 1234	State: filtered	Service: hotline	Version: 
+Port: 8090	State: open	Service: opsmessaging	Version: 
+Host: 192.168.1.62 ()
+State: up
+NEW RESULTS ##########################################################
+Scanning 192.168.1.0/24 for versions on ports 22,80,443...
+Host: 192.168.1.1 
+State: up
+Protocol: tcp
+Port: 22 State: open Service: tcpwrapped Version: 
+Port: 80 State: open Service: http Version: 
+Port: 443 State: open Service: http Version: 
+Host: 192.168.1.126 
+State: up
+Protocol: tcp
+Port: 22 State: closed Service: ssh Version: 
+Port: 80 State: closed Service: http Version: 
+Port: 443 State: closed Service: https Version: 
+Host: 192.168.1.201 
+State: up
+Protocol: tcp
+Port: 22 State: closed Service: ssh Version: 
+Port: 80 State: closed Service: http Version: 
+Port: 443 State: closed Service: https Version: 
+Host: 192.168.1.62 
+State: up
+Protocol: tcp
+Port: 22 State: closed Service: ssh Version: 
+Port: 80 State: closed Service: http Version: 
+Port: 443 State: closed Service: https Version: 
+NEW RESULTS ##########################################################
+Host: 192.168.1.1 ()
+State: up
+Protocol: tcp
+Port: 21, State: filtered
+Service: ftp, Version: 
+
+Port: 22, State: open
+Service: ssh, Version: 2019.78
+
+Port: 23, State: filtered
+Service: telnet, Version: 
+
+Port: 80, State: open
+Service: http, Version: 
+
+Port: 443, State: open
+Service: http, Version: 
+
+Host: 192.168.1.126 ()
+State: up
+Protocol: tcp
+Port: 49152, State: open
+Service: tcpwrapped, Version: 
+
+Port: 49156, State: open
+Service: unknown, Version: 
+
+Port: 62078, State: open
+Service: tcpwrapped, Version: 
+
+Host: 192.168.1.201 ()
+State: up
+Protocol: tcp
+Port: 53, State: open
+Service: tcpwrapped, Version: 
+
+Port: 1234, State: filtered
+Service: hotline, Version: 
+
+Port: 8090, State: open
+Service: opsmessaging, Version: 
+
+Host: 192.168.1.62 ()
+State: up
+NEW RESULTS ##########################################################
+Starting Service Version Detection Scan on 192.168.1.0/24...
+
+Host: 192.168.1.1 ()
+State: up
+Protocol: tcp
+Port: 21	State: filtered	Service: ftp	Version: 
+Port: 22	State: open	Service: ssh	Version: 2019.78
+Port: 23	State: filtered	Service: telnet	Version: 
+Port: 80	State: open	Service: http	Version: 
+Port: 443	State: open	Service: http	Version: 
+
+Host: 192.168.1.126 ()
+State: up
+Protocol: tcp
+Port: 49152	State: open	Service: tcpwrapped	Version: 
+Port: 49156	State: open	Service: unknown	Version: 
+Port: 62078	State: open	Service: tcpwrapped	Version: 
+
+Host: 192.168.1.201 ()
+State: up
+Protocol: tcp
+Port: 53	State: open	Service: tcpwrapped	Version: 
+Port: 1234	State: filtered	Service: hotline	Version: 
+Port: 8090	State: open	Service: opsmessaging	Version: 
+
+Host: 192.168.1.62 ()
+State: up
+NEW ERRORS ##########################################################
+NEW RESULTS ##########################################################
+Scanning network 192.168.1.0/24 for service versions...
+Host: 192.168.1.1
+State: up
+Protocol: tcp
+Port: 21	Service: ftp	Version: 
+Port: 22	Service: ssh	Version: 2019.78
+Port: 23	Service: telnet	Version: 
+Port: 80	Service: http	Version: 
+Port: 443	Service: http	Version: 
+Host: 192.168.1.126
+State: up
+Protocol: tcp
+Port: 49152	Service: tcpwrapped	Version: 
+Port: 49156	Service: unknown	Version: 
+Port: 62078	Service: tcpwrapped	Version: 
+Host: 192.168.1.201
+State: up
+Protocol: tcp
+Port: 53	Service: tcpwrapped	Version: 
+Port: 1234	Service: hotline	Version: 
+Port: 8090	Service: opsmessaging	Version: 
+Host: 192.168.1.62
+State: up
+Protocol: tcp
+Port: 563	Service: snews	Version: 
+Port: 999	Service: garcon	Version: 
+Port: 1093	Service: proofd	Version: 
+Port: 1183	Service: llsurfup-http	Version: 
+Port: 2006	Service: invokator	Version: 
+Port: 2043	Service: isis-bcast	Version: 
+Port: 2967	Service: symantec-av	Version: 
+Port: 6003	Service: X11:3	Version: 
+Port: 6009	Service: X11:9	Version: 
+Port: 7800	Service: asr	Version: 
+Port: 10025	Service: unknown	Version: 
+Port: 49154	Service: unknown	Version: 
+NEW RESULTS ##########################################################
+Starting service version detection on target: 192.168.1.0/24
+Host: 192.168.1.1 ()
+State: up
+Protocol: tcp
+Port: 21	Service: ftp	Product: 	Version: 
+Port: 22	Service: ssh	Product: Dropbear sshd	Version: 2019.78
+Port: 23	Service: telnet	Product: 	Version: 
+Port: 80	Service: http	Product: micro_httpd	Version: 
+Port: 443	Service: http	Product: micro_httpd	Version: 
+Host: 192.168.1.126 ()
+State: up
+Protocol: tcp
+Port: 49152	Service: tcpwrapped	Product: 	Version: 
+Port: 49156	Service: unknown	Product: 	Version: 
+Port: 62078	Service: tcpwrapped	Product: 	Version: 
+Host: 192.168.1.201 ()
+State: up
+Protocol: tcp
+Port: 53	Service: tcpwrapped	Product: 	Version: 
+Port: 1234	Service: hotline	Product: 	Version: 
+Port: 8090	Service: opsmessaging	Product: 	Version: 
+Host: 192.168.1.62 ()
+State: up
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 22, in <module>
+    tcp_syn_scan(args.target)
+  File "/home/jbru/va01/exec_action.py", line 7, in tcp_syn_scan
+    nm.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] -t TARGET
+exec_action.py: error: the following arguments are required: -t/--target
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 13, in <module>
+    tcp_syn_scan('192.168.1.0/24')
+  File "/home/jbru/va01/exec_action.py", line 5, in tcp_syn_scan
+    nm.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] target_network
+exec_action.py: error: the following arguments are required: target_network
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] target_network
+exec_action.py: error: the following arguments are required: target_network
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 43, in <module>
+    results = perform_tcp_syn_scan(args.target_network)
+  File "/home/jbru/va01/exec_action.py", line 6, in perform_tcp_syn_scan
+    nm.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW RESULTS ##########################################################
+Scan completed successfully. Results:
+{'192.168.1.1': {'state': 'up', 'protocols': {'tcp': {21: {'service': 'ftp', 'version': ''}, 22: {'service': 'ssh', 'version': '2019.78'}, 23: {'service': 'telnet', 'version': ''}, 80: {'service': 'http', 'version': ''}, 443: {'service': 'http', 'version': ''}}}}, '192.168.1.126': {'state': 'up', 'protocols': {'tcp': {49152: {'service': 'tcpwrapped', 'version': ''}, 49156: {'service': 'unknown', 'version': ''}, 62078: {'service': 'tcpwrapped', 'version': ''}}}}, '192.168.1.201': {'state': 'up', 'protocols': {'tcp': {53: {'service': 'tcpwrapped', 'version': ''}, 1234: {'service': 'hotline', 'version': ''}, 8090: {'service': 'opsmessaging', 'version': ''}}}}, '192.168.1.62': {'state': 'up', 'protocols': {}}}
+NEW RESULTS ##########################################################
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] --target TARGET
+exec_action.py: error: the following arguments are required: --target
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] --target TARGET
+exec_action.py: error: the following arguments are required: --target
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] target
+exec_action.py: error: the following arguments are required: target
+NEW RESULTS ##########################################################
+Scanning target: 192.168.1.0/24
+
+Host: 192.168.1.1 ()
+State: up
+
+Protocol: tcp
+Port: 21	State: filtered	Service: ftp	Version: 
+Port: 22	State: open	Service: ssh	Version: 2019.78
+Port: 23	State: filtered	Service: telnet	Version: 
+Port: 80	State: open	Service: http	Version: 
+Port: 443	State: open	Service: http	Version: 
+
+Host: 192.168.1.201 ()
+State: up
+
+Protocol: tcp
+Port: 53	State: open	Service: tcpwrapped	Version: 
+Port: 1234	State: filtered	Service: hotline	Version: 
+Port: 8090	State: open	Service: opsmessaging	Version: 
+
+Host: 192.168.1.62 ()
+State: up
+NEW ERRORS ##########################################################
+  File "/home/jbru/va01/exec_action.py", line 1
+    Here's the Python code:
+        ^
+SyntaxError: unterminated string literal (detected at line 1)
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] target
+exec_action.py: error: the following arguments are required: target
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] target
+exec_action.py: error: the following arguments are required: target
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] network_range
+exec_action.py: error: the following arguments are required: network_range
+NEW ERRORS ##########################################################
+  File "/home/jbru/va01/exec_action.py", line 1
+    Sure, here is the Python code without any additional comments or formatting:
+                      ^^^^^^
+SyntaxError: invalid syntax
+NEW RESULTS ##########################################################
+Scanning 192.168.1.0/24 for service versions...
+
+Host: 192.168.1.1 ()
+State: up
+Protocol: tcp
+Port: 21	State: filtered	Service: ftp	Version:  
+Port: 22	State: open	Service: ssh	Version: Dropbear sshd 2019.78
+Port: 23	State: filtered	Service: telnet	Version:  
+Port: 80	State: open	Service: http	Version: micro_httpd 
+Port: 443	State: open	Service: http	Version: micro_httpd 
+
+Host: 192.168.1.201 ()
+State: up
+Protocol: tcp
+Port: 53	State: open	Service: tcpwrapped	Version:  
+Port: 1234	State: filtered	Service: hotline	Version:  
+Port: 8090	State: open	Service: opsmessaging	Version:  
+NEW RESULTS ##########################################################
+Host : 192.168.1.1 ()
+State : up
+Protocol : tcp
+Port : 21	State : filtered
+Service : ftp	Version : 
+Port : 22	State : open
+Service : ssh	Version : 2019.78
+Port : 23	State : filtered
+Service : telnet	Version : 
+Port : 80	State : open
+Service : http	Version : 
+Port : 443	State : open
+Service : http	Version : 
+Host : 192.168.1.201 ()
+State : up
+Protocol : tcp
+Port : 53	State : open
+Service : tcpwrapped	Version : 
+Port : 1234	State : filtered
+Service : hotline	Version : 
+Port : 8090	State : open
+Service : opsmessaging	Version : 
+Host : 192.168.1.62 ()
+State : up
+NEW ERRORS ##########################################################
+Subprocess timed out after 900 seconds.NEW ERRORS ##########################################################
+Subprocess timed out after 900 seconds.NEW ERRORS ##########################################################
+Subprocess timed out after 900 seconds.NEW ERRORS ##########################################################
+Subprocess timed out after 900 seconds.NEW RESULTS ##########################################################
+Performing service version detection on 192.168.1.0/24...
+
+Host: 192.168.1.1 ()
+State: up
+Protocol: tcp
+Port: 21	Service: ftp	Version: 
+Port: 22	Service: ssh	Version: 2019.78
+Port: 23	Service: telnet	Version: 
+Port: 80	Service: http	Version: 
+Port: 443	Service: http	Version: 
+
+Host: 192.168.1.201 ()
+State: up
+Protocol: tcp
+Port: 53	Service: tcpwrapped	Version: 
+Port: 1234	Service: hotline	Version: 
+Port: 8090	Service: opsmessaging	Version: 
+
+Host: 192.168.1.62 ()
+State: up
+NEW RESULTS ##########################################################
+Host: 192.168.1.1 () | State: up | Protocol: tcp | Port: 21 | Service: ftp | Version: 
+Host: 192.168.1.1 () | State: up | Protocol: tcp | Port: 22 | Service: ssh | Version: 2019.78
+Host: 192.168.1.1 () | State: up | Protocol: tcp | Port: 23 | Service: telnet | Version: 
+Host: 192.168.1.1 () | State: up | Protocol: tcp | Port: 80 | Service: http | Version: 
+Host: 192.168.1.1 () | State: up | Protocol: tcp | Port: 443 | Service: http | Version: 
+Host: 192.168.1.201 () | State: up | Protocol: tcp | Port: 53 | Service: tcpwrapped | Version: 
+Host: 192.168.1.201 () | State: up | Protocol: tcp | Port: 1234 | Service: hotline | Version: 
+Host: 192.168.1.201 () | State: up | Protocol: tcp | Port: 8090 | Service: opsmessaging | Version: 
+NEW RESULTS ##########################################################
+Port: 21, Service: ftp, Version: 
+Port: 22, Service: ssh, Version: 2019.78
+Port: 23, Service: telnet, Version: 
+Port: 80, Service: http, Version: 
+Port: 443, Service: http, Version: 
+NEW ERRORS ##########################################################
+Subprocess timed out after 900 seconds.NEW RESULTS ##########################################################
+Starting service version detection on network 192.168.1.0/24...
+
+Service version details for 192.168.1.1:
+Port: 21
+  Service: ftp
+  Product: 
+  Version: 
+  Extra Info: 
+  CPE: 
+
+Port: 22
+  Service: ssh
+  Product: Dropbear sshd
+  Version: 2019.78
+  Extra Info: protocol 2.0
+  CPE: cpe:/o:linux:linux_kernel
+
+Port: 23
+  Service: telnet
+  Product: 
+  Version: 
+  Extra Info: 
+  CPE: 
+
+Port: 80
+  Service: http
+  Product: micro_httpd
+  Version: 
+  Extra Info: 
+  CPE: cpe:/a:acme:micro_httpd
+
+Port: 443
+  Service: http
+  Product: micro_httpd
+  Version: 
+  Extra Info: 
+  CPE: cpe:/a:acme:micro_httpd
+
+
+Service version details for 192.168.1.201:
+Port: 53
+  Service: tcpwrapped
+  Product: 
+  Version: 
+  Extra Info: 
+  CPE: 
+
+Port: 1234
+  Service: hotline
+  Product: 
+  Version: 
+  Extra Info: 
+  CPE: 
+
+Port: 8090
+  Service: opsmessaging
+  Product: 
+  Version: 
+  Extra Info: 
+  CPE: 
+
+
+Service version details for 192.168.1.61:
+Port: 49152
+  Service: tcpwrapped
+  Product: 
+  Version: 
+  Extra Info: 
+  CPE: 
+
+Port: 62078
+  Service: tcpwrapped
+  Product: 
+  Version: 
+  Extra Info: 
+  CPE: 
+
+
+Service version details for 192.168.1.62:
+No TCP services detected on 192.168.1.62.
+NEW ERRORS ##########################################################
+NEW RESULTS ##########################################################
+Host: 192.168.1.1 ()
+  Port: 21
+    Service: ftp
+    Product: 
+    Version: 
+    Extra Info: 
+    CPE: 
+
+  Port: 22
+    Service: ssh
+    Product: Dropbear sshd
+    Version: 2019.78
+    Extra Info: protocol 2.0
+    CPE: cpe:/o:linux:linux_kernel
+
+  Port: 23
+    Service: telnet
+    Product: 
+    Version: 
+    Extra Info: 
+    CPE: 
+
+  Port: 80
+    Service: http
+    Product: micro_httpd
+    Version: 
+    Extra Info: 
+    CPE: cpe:/a:acme:micro_httpd
+
+  Port: 443
+    Service: http
+    Product: micro_httpd
+    Version: 
+    Extra Info: 
+    CPE: cpe:/a:acme:micro_httpd
+
+Host: 192.168.1.201 ()
+  Port: 53
+    Service: tcpwrapped
+    Product: 
+    Version: 
+    Extra Info: 
+    CPE: 
+
+  Port: 1234
+    Service: hotline
+    Product: 
+    Version: 
+    Extra Info: 
+    CPE: 
+
+  Port: 8090
+    Service: opsmessaging
+    Product: 
+    Version: 
+    Extra Info: 
+    CPE: 
+
+Host: 192.168.1.61 ()
+  Port: 49152
+    Service: tcpwrapped
+    Product: 
+    Version: 
+    Extra Info: 
+    CPE: 
+
+  Port: 62078
+    Service: tcpwrapped
+    Product: 
+    Version: 
+    Extra Info: 
+    CPE: 
+
+Host: 192.168.1.62 ()
+NEW RESULTS ##########################################################
+Starting Service Version Detection on 192.168.1.0/24...
+
+Host: 192.168.1.1 ()
+  Port: 21
+    Service: ftp
+    Product: 
+    Version: 
+    Extra Info: 
+    CPE: 
+
+  Port: 22
+    Service: ssh
+    Product: Dropbear sshd
+    Version: 2019.78
+    Extra Info: protocol 2.0
+    CPE: cpe:/o:linux:linux_kernel
+
+  Port: 23
+    Service: telnet
+    Product: 
+    Version: 
+    Extra Info: 
+    CPE: 
+
+  Port: 80
+    Service: http
+    Product: micro_httpd
+    Version: 
+    Extra Info: 
+    CPE: cpe:/a:acme:micro_httpd
+
+  Port: 443
+    Service: http
+    Product: micro_httpd
+    Version: 
+    Extra Info: 
+    CPE: cpe:/a:acme:micro_httpd
+
+Host: 192.168.1.201 ()
+  Port: 53
+    Service: tcpwrapped
+    Product: 
+    Version: 
+    Extra Info: 
+    CPE: 
+
+  Port: 1234
+    Service: hotline
+    Product: 
+    Version: 
+    Extra Info: 
+    CPE: 
+
+  Port: 8090
+    Service: opsmessaging
+    Product: 
+    Version: 
+    Extra Info: 
+    CPE: 
+
+Host: 192.168.1.62 ()
+NEW RESULTS ##########################################################
+Starting Service Version Detection on 192.168.1.0/24...
+
+Host: 192.168.1.1 (No Hostname)
+  Port: 21
+    Service: ftp
+    Product: 
+    Version: 
+    Extra Info: 
+    CPE: 
+
+  Port: 22
+    Service: ssh
+    Product: Dropbear sshd
+    Version: 2019.78
+    Extra Info: protocol 2.0
+    CPE: cpe:/o:linux:linux_kernel
+
+  Port: 23
+    Service: telnet
+    Product: 
+    Version: 
+    Extra Info: 
+    CPE: 
+
+  Port: 80
+    Service: http
+    Product: micro_httpd
+    Version: 
+    Extra Info: 
+    CPE: cpe:/a:acme:micro_httpd
+
+  Port: 443
+    Service: http
+    Product: micro_httpd
+    Version: 
+    Extra Info: 
+    CPE: cpe:/a:acme:micro_httpd
+
+Host: 192.168.1.201 (No Hostname)
+  Port: 53
+    Service: tcpwrapped
+    Product: 
+    Version: 
+    Extra Info: 
+    CPE: 
+
+  Port: 1234
+    Service: hotline
+    Product: 
+    Version: 
+    Extra Info: 
+    CPE: 
+
+  Port: 8090
+    Service: opsmessaging
+    Product: 
+    Version: 
+    Extra Info: 
+    CPE: 
+
+Host: 192.168.1.61 (No Hostname)
+  Port: 49152
+    Service: tcpwrapped
+    Product: 
+    Version: 
+    Extra Info: 
+    CPE: 
+
+  Port: 62078
+    Service: tcpwrapped
+    Product: 
+    Version: 
+    Extra Info: 
+    CPE: 
+
+NEW ERRORS ##########################################################
+NEW ERRORS ##########################################################
+NEW RESULTS ##########################################################
+An error occurred: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW RESULTS ##########################################################
+Starting TCP SYN Scan on 192.168.1.0/24...
+Port Scanner Error: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW RESULTS ##########################################################
+Starting TCP SYN Scan on 192.168.1.0/24...
+Port Scanner Error: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+NEW RESULTS ##########################################################
+Starting Service Version Detection on 192.168.1.0/24...
+
+Host: 192.168.1.1 ()
+State:  up
+Protocol: tcp
+Port: 21	State: filtered	Service: ftp	Product: 	Version: 
+Port: 22	State: open	Service: ssh	Product: Dropbear sshd	Version: 2019.78
+Port: 23	State: filtered	Service: telnet	Product: 	Version: 
+Port: 80	State: open	Service: http	Product: micro_httpd	Version: 
+Port: 443	State: open	Service: http	Product: micro_httpd	Version: 
+
+Host: 192.168.1.201 ()
+State:  up
+Protocol: tcp
+Port: 53	State: open	Service: tcpwrapped	Product: 	Version: 
+Port: 1234	State: filtered	Service: hotline	Product: 	Version: 
+Port: 8090	State: open	Service: opsmessaging	Product: 	Version: 
+
+Host: 192.168.1.61 ()
+State:  up
+Protocol: tcp
+Port: 2394	State: filtered	Service: ms-olap2	Product: 	Version: 
+Port: 49152	State: open	Service: tcpwrapped	Product: 	Version: 
+Port: 62078	State: open	Service: tcpwrapped	Product: 	Version: 
+
+Host: 192.168.1.62 ()
+State:  up
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] target
+exec_action.py: error: the following arguments are required: target
+NEW RESULTS ##########################################################
+Starting Service Version Detection on 192.168.1.0/24...
+
+Host: 192.168.1.1 ()
+State:  up
+Port: 21	State: filtered	Service: ftp	Product: 	Version: 
+Port: 22	State: open	Service: ssh	Product: Dropbear sshd	Version: 2019.78
+Port: 23	State: filtered	Service: telnet	Product: 	Version: 
+Port: 80	State: open	Service: http	Product: micro_httpd	Version: 
+Port: 443	State: open	Service: http	Product: micro_httpd	Version: 
+
+Host: 192.168.1.201 ()
+State:  up
+Port: 53	State: open	Service: tcpwrapped	Product: 	Version: 
+Port: 1234	State: filtered	Service: hotline	Product: 	Version: 
+Port: 8090	State: open	Service: opsmessaging	Product: 	Version: 
+
+Host: 192.168.1.62 ()
+State:  up
+NEW RESULTS ##########################################################
+Starting Service Version Detection on 192.168.1.0/24...
+
+Host: 192.168.1.1 ()
+State:  up
+Port: 21	State: filtered	Service: ftp	Product: 	Version: 
+Port: 22	State: open	Service: ssh	Product: Dropbear sshd	Version: 2019.78
+Port: 23	State: filtered	Service: telnet	Product: 	Version: 
+Port: 80	State: open	Service: http	Product: micro_httpd	Version: 
+Port: 443	State: open	Service: http	Product: micro_httpd	Version: 
+
+Host: 192.168.1.201 ()
+State:  up
+Port: 53	State: open	Service: tcpwrapped	Product: 	Version: 
+Port: 1234	State: filtered	Service: hotline	Product: 	Version: 
+Port: 8090	State: open	Service: opsmessaging	Product: 	Version: 
+
+Host: 192.168.1.62 ()
+State:  up
+Starting OS Detection on 192.168.1.0/24...
+An error occurred: 'TCP/IP fingerprinting (for OS scan) requires root privileges.\nQUITTING!\n'
+NEW RESULTS ##########################################################
+Starting Service Version Detection on 192.168.1.0/24...
+
+Host: 192.168.1.1 ()
+State:  up
+Port: 21	State: filtered	Service: ftp	Product: 	Version: 
+Port: 22	State: open	Service: ssh	Product: Dropbear sshd	Version: 2019.78
+Port: 23	State: filtered	Service: telnet	Product: 	Version: 
+Port: 80	State: open	Service: http	Product: micro_httpd	Version: 
+Port: 443	State: open	Service: http	Product: micro_httpd	Version: 
+
+Host: 192.168.1.201 ()
+State:  up
+Port: 53	State: open	Service: tcpwrapped	Product: 	Version: 
+Port: 1234	State: filtered	Service: hotline	Product: 	Version: 
+Port: 8090	State: open	Service: opsmessaging	Product: 	Version: 
+
+Host: 192.168.1.62 ()
+State:  up
+NEW RESULTS ##########################################################
+Starting Service Version Detection on 192.168.1.0/24...
+
+Host: 192.168.1.1 ()
+State:  up
+Port: 21	State: filtered	Service: ftp	Product: 	Version: 
+Port: 22	State: open	Service: ssh	Product: Dropbear sshd	Version: 2019.78
+Port: 23	State: filtered	Service: telnet	Product: 	Version: 
+Port: 80	State: open	Service: http	Product: micro_httpd	Version: 
+Port: 443	State: open	Service: http	Product: micro_httpd	Version: 
+
+Host: 192.168.1.201 ()
+State:  up
+Port: 53	State: open	Service: tcpwrapped	Product: 	Version: 
+Port: 1234	State: filtered	Service: hotline	Product: 	Version: 
+Port: 8090	State: open	Service: opsmessaging	Product: 	Version: 
+
+Host: 192.168.1.61 ()
+State:  up
+Port: 49152	State: open	Service: tcpwrapped	Product: 	Version: 
+Port: 62078	State: open	Service: tcpwrapped	Product: 	Version: 
+
+Host: 192.168.1.62 ()
+State:  up
+NEW RESULTS ##########################################################
+Starting OS Detection on 192.168.1.0/24...
+An error occurred: 'TCP/IP fingerprinting (for OS scan) requires root privileges.\nQUITTING!\n'
+NEW RESULTS ##########################################################
+Starting OS Detection on 192.168.1.0/24...
+An error occurred: 'TCP/IP fingerprinting (for OS scan) requires root privileges.\nQUITTING!\n'
+NEW RESULTS ##########################################################
+Starting OS Detection on 192.168.1.0/24...
+An error occurred: 'TCP/IP fingerprinting (for OS scan) requires root privileges.\nQUITTING!\n'
+Starting OS Detection on 192.168.100.0/24...
+An error occurred: 'TCP/IP fingerprinting (for OS scan) requires root privileges.\nQUITTING!\n'
+Starting TCP SYN Scan on 192.168.1.0/24 for ports: 22,80,443...
+An error occurred: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+Starting TCP SYN Scan on 192.168.100.0/24 for ports: 21,22,80,443...
+An error occurred: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW RESULTS ##########################################################
+Starting OS Detection on 192.168.1.0/24...
+An error occurred: 'TCP/IP fingerprinting (for OS scan) requires root privileges.\nQUITTING!\n'
+Starting OS Detection on 192.168.100.0/24...
+An error occurred: 'TCP/IP fingerprinting (for OS scan) requires root privileges.\nQUITTING!\n'
+Starting TCP SYN Scan on 192.168.1.0/24 for ports: 22,80,443...
+An error occurred: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+Starting TCP SYN Scan on 192.168.100.0/24 for ports: 21,22,80,443...
+An error occurred: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+Starting Service Version Detection on 192.168.1.0/24 for ports: 21,22,80,443...
+
+Host: 192.168.1.1 ()
+State: up
+Port: 21
+  State: filtered
+  Name: ftp
+  Product: 
+  Version: 
+  Extra Info: 
+----------------------------------------
+Port: 22
+  State: open
+  Name: ssh
+  Product: Dropbear sshd
+  Version: 2019.78
+  Extra Info: protocol 2.0
+----------------------------------------
+Port: 80
+  State: open
+  Name: http
+  Product: micro_httpd
+  Version: 
+  Extra Info: 
+----------------------------------------
+Port: 443
+  State: open
+  Name: http
+  Product: micro_httpd
+  Version: 
+  Extra Info: 
+----------------------------------------
+
+Host: 192.168.1.201 ()
+State: up
+Port: 21
+  State: closed
+  Name: ftp
+  Product: 
+  Version: 
+  Extra Info: 
+----------------------------------------
+Port: 22
+  State: closed
+  Name: ssh
+  Product: 
+  Version: 
+  Extra Info: 
+----------------------------------------
+Port: 80
+  State: closed
+  Name: http
+  Product: 
+  Version: 
+  Extra Info: 
+----------------------------------------
+Port: 443
+  State: closed
+  Name: https
+  Product: 
+  Version: 
+  Extra Info: 
+----------------------------------------
+
+Host: 192.168.1.62 ()
+State: up
+Port: 21
+  State: closed
+  Name: ftp
+  Product: 
+  Version: 
+  Extra Info: 
+----------------------------------------
+Port: 22
+  State: closed
+  Name: ssh
+  Product: 
+  Version: 
+  Extra Info: 
+----------------------------------------
+Port: 80
+  State: closed
+  Name: http
+  Product: 
+  Version: 
+  Extra Info: 
+----------------------------------------
+Port: 443
+  State: closed
+  Name: https
+  Product: 
+  Version: 
+  Extra Info: 
+----------------------------------------
+Starting Service Version Detection on 192.168.100.0/24 for ports: 21,22,80,443,8080...
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 24, in <module>
+    udp_scan(network_in_scope, udp_ports)
+  File "/home/jbru/va01/exec_action.py", line 6, in udp_scan
+    nm.scan(hosts=network, arguments=f'-sU -p {ports_csv}')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 10, in <module>
+    nm.scan(hosts=target_network, arguments=f'-sU -p {udp_ports}')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 10, in <module>
+    nm.scan(hosts=target_network, arguments=f'-sS -p {tcp_ports}')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW RESULTS ##########################################################
+Host: 192.168.1.1 ()
+State: up
+Port: 21	State: filtered
+Service: ftp	Version: 
+Product: 
+Port: 22	State: open
+Service: ssh	Version: 2019.78
+Product: Dropbear sshd
+Port: 23	State: filtered
+Service: telnet	Version: 
+Product: 
+Port: 80	State: open
+Service: http	Version: 
+Product: micro_httpd
+Port: 443	State: open
+Service: http	Version: 
+Product: micro_httpd
+Host: 192.168.1.201 ()
+State: up
+Port: 53	State: open
+Service: tcpwrapped	Version: 
+Product: 
+Port: 1234	State: filtered
+Service: hotline	Version: 
+Product: 
+Port: 8090	State: open
+Service: opsmessaging	Version: 
+Product: 
+Host: 192.168.1.62 ()
+State: up
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 18, in <module>
+    tcp_syn_scan(target_network, tcp_ports)
+  File "/home/jbru/va01/exec_action.py", line 5, in tcp_syn_scan
+    nm.scan(hosts=target_network, arguments=f'-sS -p {tcp_ports}')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 17, in <module>
+    tcp_syn_scan(target_network)
+  File "/home/jbru/va01/exec_action.py", line 5, in tcp_syn_scan
+    nm.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 18, in <module>
+    result = tcp_syn_scan(network_range)
+  File "/home/jbru/va01/exec_action.py", line 5, in tcp_syn_scan
+    scanner.scan(hosts=network, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 16, in <module>
+    main()
+  File "/home/jbru/va01/exec_action.py", line 10, in main
+    active_hosts = scan_network(network_range)
+  File "/home/jbru/va01/exec_action.py", line 5, in scan_network
+    nm.scan(hosts=network_range, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 20, in <module>
+    tcp_syn_scan(network_range)
+  File "/home/jbru/va01/exec_action.py", line 5, in tcp_syn_scan
+    scan_result = nm.scan(hosts=network_range, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW RESULTS ##########################################################
+Error: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+NEW RESULTS ##########################################################
+Error: 'TCP/IP fingerprinting (for OS scan) requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 32, in <module>
+    detect_os_and_service_versions()
+  File "/home/jbru/va01/exec_action.py", line 5, in detect_os_and_service_versions
+    scanner.scan(hosts=target_range, arguments='-O -sV')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'TCP/IP fingerprinting (for OS scan) requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 24, in <module>
+    target_range = sys.argv[1]
+IndexError: list index out of range
+NEW RESULTS ##########################################################
+Scanning for service versions in range: 192.168.1.0/24
+
+Host: 192.168.1.1 ()
+State: up
+Protocol: tcp
+Port: 21	State: filtered	Service: ftp	Version: 
+Port: 22	State: open	Service: ssh	Version: 2019.78
+Port: 23	State: filtered	Service: telnet	Version: 
+Port: 80	State: open	Service: http	Version: 
+Port: 443	State: open	Service: http	Version: 
+
+Host: 192.168.1.201 ()
+State: up
+Protocol: tcp
+Port: 53	State: open	Service: tcpwrapped	Version: 
+Port: 1234	State: filtered	Service: hotline	Version: 
+Port: 8090	State: open	Service: opsmessaging	Version: 
+
+Host: 192.168.1.62 ()
+State: up
+NEW RESULTS ##########################################################
+
+Host: 192.168.1.1 ()
+State: up
+Protocol: tcp
+Port: 21	State: filtered	Service: ftp	Version: 
+Port: 22	State: open	Service: ssh	Version: 2019.78
+Port: 23	State: filtered	Service: telnet	Version: 
+Port: 80	State: open	Service: http	Version: 
+Port: 443	State: open	Service: http	Version: 
+
+Host: 192.168.1.201 ()
+State: up
+Protocol: tcp
+Port: 53	State: open	Service: tcpwrapped	Version: 
+Port: 1234	State: filtered	Service: hotline	Version: 
+Port: 8090	State: open	Service: opsmessaging	Version: 
+
+Host: 192.168.1.62 ()
+State: up
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 36, in <module>
+    main()
+  File "/home/jbru/va01/exec_action.py", line 33, in main
+    tcp_syn_scan(scanner, target_range, ports_to_scan)
+  File "/home/jbru/va01/exec_action.py", line 17, in tcp_syn_scan
+    scanner.scan(hosts=target, arguments=f'-sS -p {ports} -T4')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] ip_range
+exec_action.py: error: the following arguments are required: ip_range
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] ip_range
+exec_action.py: error: the following arguments are required: ip_range
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 28, in <module>
+    tcp_syn_scan()
+  File "/home/jbru/va01/exec_action.py", line 20, in tcp_syn_scan
+    nm.scan(target_ip, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+NEW ERRORS ##########################################################
+NEW ERRORS ##########################################################
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 23, in <module>
+    syn_scan(target_ip)
+  File "/home/jbru/va01/exec_action.py", line 7, in syn_scan
+    nm.scan(hosts=target_ip, arguments=f'-sS -p {ports}')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 19, in <module>
+    tcp_syn_scan(network_scope)
+  File "/home/jbru/va01/exec_action.py", line 5, in tcp_syn_scan
+    nm.scan(hosts=network, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 19, in <module>
+    tcp_syn_scan(network_scope)
+  File "/home/jbru/va01/exec_action.py", line 5, in tcp_syn_scan
+    nm.scan(hosts=network, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+NEW RESULTS ##########################################################
+Starting SYN Scan on 192.168.1.0/24...
+An error occurred: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] target
+exec_action.py: error: the following arguments are required: target
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 19, in <module>
+    tcp_syn_scan(target_network)
+  File "/home/jbru/va01/exec_action.py", line 6, in tcp_syn_scan
+    nm.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] network
+exec_action.py: error: the following arguments are required: network
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] network
+exec_action.py: error: the following arguments are required: network
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 20, in <module>
+    tcp_syn_scan(args.network)
+  File "/home/jbru/va01/exec_action.py", line 7, in tcp_syn_scan
+    nm.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 20, in <module>
+    tcp_syn_scan(args.network)
+  File "/home/jbru/va01/exec_action.py", line 7, in tcp_syn_scan
+    nm.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 20, in <module>
+    tcp_syn_scan(args.network)
+  File "/home/jbru/va01/exec_action.py", line 7, in tcp_syn_scan
+    nm.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 20, in <module>
+    tcp_syn_scan(args.network)
+  File "/home/jbru/va01/exec_action.py", line 7, in tcp_syn_scan
+    nm.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 19, in <module>
+    tcp_syn_scan(args.network)
+  File "/home/jbru/va01/exec_action.py", line 7, in tcp_syn_scan
+    nm.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 20, in <module>
+    tcp_syn_scan(args.network)
+  File "/home/jbru/va01/exec_action.py", line 7, in tcp_syn_scan
+    nm.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 31, in <module>
+    main()
+  File "/home/jbru/va01/exec_action.py", line 28, in main
+    tcp_syn_scan(args.target)
+  File "/home/jbru/va01/exec_action.py", line 8, in tcp_syn_scan
+    nm.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 30, in <module>
+    main()
+  File "/home/jbru/va01/exec_action.py", line 27, in main
+    tcp_syn_scan(args.target)
+  File "/home/jbru/va01/exec_action.py", line 8, in tcp_syn_scan
+    nm.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 30, in <module>
+    main()
+  File "/home/jbru/va01/exec_action.py", line 27, in main
+    tcp_syn_scan(args.target)
+  File "/home/jbru/va01/exec_action.py", line 8, in tcp_syn_scan
+    nm.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 34, in <module>
+    main()
+  File "/home/jbru/va01/exec_action.py", line 31, in main
+    tcp_syn_scan(args.target)
+  File "/home/jbru/va01/exec_action.py", line 8, in tcp_syn_scan
+    nm.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 29, in <module>
+    main()
+  File "/home/jbru/va01/exec_action.py", line 26, in main
+    tcp_syn_scan(args.target)
+  File "/home/jbru/va01/exec_action.py", line 7, in tcp_syn_scan
+    nm.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 30, in <module>
+    main()
+  File "/home/jbru/va01/exec_action.py", line 27, in main
+    tcp_syn_scan(args.target)
+  File "/home/jbru/va01/exec_action.py", line 7, in tcp_syn_scan
+    scanner.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 30, in <module>
+    main()
+  File "/home/jbru/va01/exec_action.py", line 27, in main
+    tcp_syn_scan(args.target)
+  File "/home/jbru/va01/exec_action.py", line 7, in tcp_syn_scan
+    scanner.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 30, in <module>
+    main()
+  File "/home/jbru/va01/exec_action.py", line 27, in main
+    tcp_syn_scan(args.target)
+  File "/home/jbru/va01/exec_action.py", line 7, in tcp_syn_scan
+    scanner.scan(hosts=target, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW RESULTS ##########################################################
+Starting TCP SYN scan on 192.168.1.0/24...
+Nmap error: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW RESULTS ##########################################################
+Starting TCP SYN scan on 192.168.1.0/24...
+Nmap error: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] -t TARGET
+exec_action.py: error: the following arguments are required: -t/--target
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] -t TARGET
+exec_action.py: error: the following arguments are required: -t/--target
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] -t TARGET
+exec_action.py: error: the following arguments are required: -t/--target
+NEW RESULTS ##########################################################
+
+Host: 192.168.1.1 ()
+State: up
+
+Protocol: tcp
+Port: 21	State: filtered	Service: ftp	Version: 
+Port: 22	State: open	Service: ssh	Version: 2019.78
+Port: 23	State: filtered	Service: telnet	Version: 
+Port: 80	State: open	Service: http	Version: 
+Port: 443	State: open	Service: http	Version: 
+
+Host: 192.168.1.201 ()
+State: up
+
+Protocol: tcp
+Port: 53	State: open	Service: tcpwrapped	Version: 
+Port: 1234	State: filtered	Service: hotline	Version: 
+Port: 8090	State: open	Service: opsmessaging	Version: 
+
+Host: 192.168.1.62 ()
+State: up
+NEW RESULTS ##########################################################
+
+Host: 192.168.1.1 ()
+State: up
+
+Protocol: tcp
+Port: 21	State: filtered	Service: ftp	Version: 
+Port: 22	State: open	Service: ssh	Version: 2019.78
+Port: 23	State: filtered	Service: telnet	Version: 
+Port: 80	State: open	Service: http	Version: 
+Port: 443	State: open	Service: http	Version: 
+
+Host: 192.168.1.201 ()
+State: up
+
+Protocol: tcp
+Port: 53	State: open	Service: tcpwrapped	Version: 
+Port: 1234	State: filtered	Service: hotline	Version: 
+Port: 8090	State: open	Service: opsmessaging	Version: 
+
+Host: 192.168.1.62 ()
+State: up
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] -n NETWORK
+exec_action.py: error: the following arguments are required: -n/--network
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 22, in <module>
+    os_detection(target_network)
+  File "/home/jbru/va01/exec_action.py", line 6, in os_detection
+    result = scanner.scan(hosts=target_network, arguments='-O')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'TCP/IP fingerprinting (for OS scan) requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 21, in <module>
+    parser = argparse.ArgumentParser(description="OS Detection using Python and Nmap")
+NameError: name 'argparse' is not defined
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] [--hosts HOSTS] ports
+exec_action.py: error: the following arguments are required: ports
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] [--hosts HOSTS] ports
+exec_action.py: error: the following arguments are required: ports
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] [--hosts HOSTS] ports
+exec_action.py: error: the following arguments are required: ports
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] [--hosts HOSTS] ports
+exec_action.py: error: the following arguments are required: ports
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] [--hosts HOSTS] ports
+exec_action.py: error: the following arguments are required: ports
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] [--hosts HOSTS] ports
+exec_action.py: error: the following arguments are required: ports
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 27, in <module>
+    tcp_syn_scan(args.hosts, args.ports)
+  File "/home/jbru/va01/exec_action.py", line 7, in tcp_syn_scan
+    nm.scan(target_hosts, target_ports, arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] [--hosts HOSTS] --ports PORTS
+exec_action.py: error: the following arguments are required: --ports
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 11, in <module>
+    scan_result = tcp_syn_scan(hosts, ports)
+  File "/home/jbru/va01/exec_action.py", line 5, in tcp_syn_scan
+    nm.scan(hosts=hosts, arguments=f'-sS -p {ports}')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] [--hosts HOSTS] --ports PORTS
+exec_action.py: error: the following arguments are required: --ports
+NEW ERRORS ##########################################################
+  File "/home/jbru/va01/exec_action.py", line 1
+    ```python
+    ^
+SyntaxError: invalid syntax
+NEW RESULTS ##########################################################
+Starting scan on hosts: 192.168.1.0/24 with ports: 22,80,443
+
+Nmap error: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW RESULTS ##########################################################
+Starting scan on hosts: 192.168.1.0/24 with ports: 22,80,443
+
+Nmap error: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] --hosts HOSTS --ports PORTS
+exec_action.py: error: the following arguments are required: --hosts, --ports
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] --hosts HOSTS --ports PORTS
+exec_action.py: error: the following arguments are required: --hosts, --ports
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] --hosts HOSTS --ports PORTS
+exec_action.py: error: the following arguments are required: --hosts, --ports
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] --target TARGET [--ports PORTS]
+exec_action.py: error: the following arguments are required: --target
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] --target TARGET [--ports PORTS]
+exec_action.py: error: the following arguments are required: --target
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 21, in <module>
+    tcp_syn_scan(args.target, args.ports)
+  File "/home/jbru/va01/exec_action.py", line 6, in tcp_syn_scan
+    scanner.scan(hosts=target, ports=port_range, arguments='-sS -sV')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 19, in <module>
+    tcp_syn_scan(target_ip, port_range)
+  File "/home/jbru/va01/exec_action.py", line 6, in tcp_syn_scan
+    nm.scan(target_ip, port_range, arguments=scan_arguments)
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 20, in <module>
+    tcp_syn_scan(target_ip, port_range)
+  File "/home/jbru/va01/exec_action.py", line 6, in tcp_syn_scan
+    nm.scan(target_ip, port_range, arguments=scan_arguments)
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 29, in <module>
+    main()
+  File "/home/jbru/va01/exec_action.py", line 26, in main
+    tcp_syn_scan(args.network, args.ports)
+  File "/home/jbru/va01/exec_action.py", line 7, in tcp_syn_scan
+    nm.scan(target_network, port_range, arguments=scan_arguments)
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+Subprocess timed out after 900 seconds.NEW ERRORS ##########################################################
+Traceback (most recent call last):
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 369, in analyse_nmap_xml_scan
+    dom = ET.fromstring(self._nmap_last_output)
+  File "/usr/lib/python3.10/xml/etree/ElementTree.py", line 1343, in XML
+    return parser.close()
+xml.etree.ElementTree.ParseError: no element found: line 1, column 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jbru/va01/exec_action.py", line 33, in <module>
+    run_tcp_syn_scan(targets)
+  File "/home/jbru/va01/exec_action.py", line 18, in run_tcp_syn_scan
+    nm.scan(hosts=' '.join(targets), arguments='-sS')
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 306, in scan
+    return self.analyse_nmap_xml_scan(
+  File "/home/jbru/.local/lib/python3.10/site-packages/nmap/nmap.py", line 372, in analyse_nmap_xml_scan
+    raise PortScannerError(nmap_err)
+nmap.nmap.PortScannerError: 'You requested a scan type which requires root privileges.\nQUITTING!\n'
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] network_range
+exec_action.py: error: the following arguments are required: network_range
+NEW RESULTS ##########################################################
+Scanning 192.168.1.0/24 for service versions...
+
+Host: 192.168.1.1 (No hostname)
+State: up
+
+Protocol: tcp
+Port: 21
+Service: ftp
+Version: 
+Product: 
+Extra Info: 
+------------------------------
+Port: 22
+Service: ssh
+Version: 2019.78
+Product: Dropbear sshd
+Extra Info: protocol 2.0
+------------------------------
+Port: 23
+Service: telnet
+Version: 
+Product: 
+Extra Info: 
+------------------------------
+Port: 80
+Service: http
+Version: 
+Product: micro_httpd
+Extra Info: 
+------------------------------
+Port: 443
+Service: http
+Version: 
+Product: micro_httpd
+Extra Info: 
+------------------------------
+
+Host: 192.168.1.201 (No hostname)
+State: up
+
+Protocol: tcp
+Port: 53
+Service: tcpwrapped
+Version: 
+Product: 
+Extra Info: 
+------------------------------
+Port: 1234
+Service: hotline
+Version: 
+Product: 
+Extra Info: 
+------------------------------
+Port: 8090
+Service: opsmessaging
+Version: 
+Product: 
+Extra Info: 
+------------------------------
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] network
+exec_action.py: error: the following arguments are required: network
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] network
+exec_action.py: error: the following arguments are required: network
+NEW RESULTS ##########################################################
+
+Host: 192.168.1.1 (No hostname)
+State: up
+
+Protocol: tcp
+Port: 21
+Service: ftp
+Version: 
+Product: 
+Extra Info: 
+------------------------------
+Port: 22
+Service: ssh
+Version: 2019.78
+Product: Dropbear sshd
+Extra Info: protocol 2.0
+------------------------------
+Port: 23
+Service: telnet
+Version: 
+Product: 
+Extra Info: 
+------------------------------
+Port: 80
+Service: http
+Version: 
+Product: micro_httpd
+Extra Info: 
+------------------------------
+Port: 443
+Service: http
+Version: 
+Product: micro_httpd
+Extra Info: 
+------------------------------
+
+Host: 192.168.1.201 (No hostname)
+State: up
+
+Protocol: tcp
+Port: 53
+Service: tcpwrapped
+Version: 
+Product: 
+Extra Info: 
+------------------------------
+Port: 1234
+Service: hotline
+Version: 
+Product: 
+Extra Info: 
+------------------------------
+Port: 8090
+Service: opsmessaging
+Version: 
+Product: 
+Extra Info: 
+------------------------------
+
+Host: 192.168.1.62 (No hostname)
+State: up
+NEW RESULTS ##########################################################
+
+Host: 192.168.1.1 (No hostname)
+State: up
+
+Protocol: tcp
+Port: 21
+Service: ftp
+Version: 
+Product: 
+Extra Info: 
+------------------------------
+Port: 22
+Service: ssh
+Version: 2019.78
+Product: Dropbear sshd
+Extra Info: protocol 2.0
+------------------------------
+Port: 23
+Service: telnet
+Version: 
+Product: 
+Extra Info: 
+------------------------------
+Port: 80
+Service: http
+Version: 
+Product: micro_httpd
+Extra Info: 
+------------------------------
+Port: 443
+Service: http
+Version: 
+Product: micro_httpd
+Extra Info: 
+------------------------------
+
+Host: 192.168.1.201 (No hostname)
+State: up
+
+Protocol: tcp
+Port: 53
+Service: tcpwrapped
+Version: 
+Product: 
+Extra Info: 
+------------------------------
+Port: 1234
+Service: hotline
+Version: 
+Product: 
+Extra Info: 
+------------------------------
+Port: 8090
+Service: opsmessaging
+Version: 
+Product: 
+Extra Info: 
+------------------------------
+
+Host: 192.168.1.62 (No hostname)
+State: up
+NEW ERRORS ##########################################################
+usage: exec_action.py [-h] [--ports PORTS] target
+exec_action.py: error: the following arguments are required: target
