@@ -10,7 +10,7 @@ import psycopg2
 from psycopg2.extras import RealDictCursor
 #start_time = time.time()
 from openai import OpenAI
-client = OpenAI(api_key='')
+client = OpenAI(api_key='TO BE DEFINED')
 
 class Messaging:
     def __init__(self, db_config):
